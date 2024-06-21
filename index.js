@@ -13,7 +13,7 @@ app.use(bodyParser.json({ limit: '1mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '1mb', extended: true }))
 app.use('/todos', todoRoute)
 
-app.get('/', (req, res) => {
+app.use('/', (req, res) => {
   res.send('APP IS RUNNING')
 })
 
