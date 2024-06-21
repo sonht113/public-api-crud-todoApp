@@ -21,6 +21,6 @@ const PORT = 3000
 
 mongoose.set('strictQuery', false)
 mongoose
-  .connect("mongodb+srv://nuicoder:coder123@cluster0.emxawoq.mongodb.net/todo")
-  .then(() => app.listen(PORT, "0.0.0.0", () => console.log(`Server running: ${PORT}`)))
+  .connect(process.env.DB_URL)
+  .then(() => app.listen(PORT, () => console.log(`Server running: ${PORT}`)))
   .catch((error) => console.log(error))
