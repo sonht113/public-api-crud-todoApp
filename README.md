@@ -4,7 +4,7 @@ This just a simple TODO API with GET, POST, PUT and DELETE endpoints. I made thi
 
 You can access this API for free, just in case you need a CRUD API when you currently learning a Front-End
 
-You'all can access the API URL on: https://calm-plum-jaguar-tutu.cyclic.app/todos
+You'all can access the API URL on: [https://public-api-crud-todo-app.vercel.app/todos](https://public-api-crud-todo-app.vercel.app/todos)
 
 ```bash
 For this API URL
